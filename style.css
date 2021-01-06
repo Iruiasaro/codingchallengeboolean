@@ -1,0 +1,105 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+#box{
+	opacity:0.5;
+	filter:alpha(opacity=90);
+	position: absolute;
+  top:1%;
+  left: 18%;
+	background-color: #000000;
+	color: #ffffff;
+	width: 10px;
+  padding-top: 525px;
+	padding-left: 725px;
+  margin: 15px 0 0 -1px;
+}
+
+
+.container {
+  width:500px;
+  height:600px;
+  position:absolute;
+  top:52%;
+  left:52%;
+  margin:-230px -100px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.testo {
+  width: 1000px;
+  font-size: 25px;
+  color: lime;
+  font-weight: bolder;
+  font-style: oblique;
+  height:200px;
+  position: absolute;
+  top:63%;
+  left:45%;
+  margin:-230px -100px;
+}
+
+.barra {
+  position: absolute;
+  height: 2%;
+  top:70%;
+  left:45%;
+  margin:-240px -250px;
+  background-color: #00dd00;
+  padding-left: 200px;
+  padding-right: 210px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+
+#button {
+height: 14px;
+font-size: 8px;
+text-align: center;
+}
+
+.resto {
+  width:500px;
+  height:200px;
+  position: absolute;
+  top:74%;
+  left:45%;
+  margin:-230px 0 0 -250px;
+}
+
+.row {
+  color: white;
+}
+
+span{
+  font-size: 12px;
+}
+
+.first{
+  border: 10px solid #f5b453;
+  width: 40%;
+  margin-right: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.second{
+  border: 10px solid #1ec31e;
+  width: 70%;
+  margin-right: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.third{
+  border: 10px solid #be4141;
+  width: 15%;
+  margin-right: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
